@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/border-radius-generator/static/css/main.d828b6b7.css",
+    "main.js": "/border-radius-generator/static/js/main.2271d17e.js",
+    "index.html": "/border-radius-generator/index.html",
+    "main.d828b6b7.css.map": "/border-radius-generator/static/css/main.d828b6b7.css.map",
+    "main.2271d17e.js.map": "/border-radius-generator/static/js/main.2271d17e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d828b6b7.css",
+    "static/js/main.2271d17e.js"
+  ]
+}
