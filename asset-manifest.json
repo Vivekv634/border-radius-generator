@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/border-radius-generator/static/css/main.d828b6b7.css",
-    "main.js": "/border-radius-generator/static/js/main.2271d17e.js",
+    "main.css": "/border-radius-generator/static/css/main.eff4db11.css",
+    "main.js": "/border-radius-generator/static/js/main.3f1efce5.js",
     "index.html": "/border-radius-generator/index.html",
-    "main.d828b6b7.css.map": "/border-radius-generator/static/css/main.d828b6b7.css.map",
-    "main.2271d17e.js.map": "/border-radius-generator/static/js/main.2271d17e.js.map"
+    "main.eff4db11.css.map": "/border-radius-generator/static/css/main.eff4db11.css.map",
+    "main.3f1efce5.js.map": "/border-radius-generator/static/js/main.3f1efce5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d828b6b7.css",
-    "static/js/main.2271d17e.js"
+    "static/css/main.eff4db11.css",
+    "static/js/main.3f1efce5.js"
   ]
 }
