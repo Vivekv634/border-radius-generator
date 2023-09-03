@@ -11,64 +11,99 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #eee;
 }
 
 #root {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     padding: 2rem;
+    background-color: #fff;
     border-radius: 1rem;
+    width: 650px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-h1 {
-    font-family: ubuntu;
+h2 {
     display: flex;
     justify-content: center;
+    font-family: ubuntu;
     margin-bottom: 1rem;
 }
 
-.app {
-    width: 550px;
-    display: flex;
-}
-
-.right {
-    width: 50%;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.square {
-    width: 70%;
-    margin: auto;
-    aspect-ratio: 1/1;
-    background-color: #c9c9c9;
-}
-
 .label {
-    font-family: poppins;
     display: flex;
     justify-content: center;
-    cursor: pointer;
+    /* font-size: .7rem; */
+    font-family: poppins;
 }
 
 label {
     font-family: poppins;
-    font-size: .9rem;
     display: block;
     margin-top: 0.5rem;
+}
+
+.app {
+    display: flex;
+    padding: 1rem auto;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.square {
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: #eee;
+    margin-bottom: 0.5rem;
 }
 
 input[type=number] {
     width: 7ch;
     text-align: center;
     font-family: poppins;
-    margin-right: 0.3rem;
+    margin-right: 0.5rem;
 }
 
 input[type=range] {
-    width: 70%;
+    width: 60%;
+}
+
+@media screen and (max-width:600px) {
+    #root {
+        height: 100vh;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app {
+        display: block;
+        width: inherit;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
 }
